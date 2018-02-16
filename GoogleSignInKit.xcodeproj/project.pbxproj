@@ -10,6 +10,15 @@
 		0E7768461E380F31001D2D18 /* GoogleSignInKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E77683C1E380F31001D2D18 /* GoogleSignInKit.framework */; };
 		0E77684B1E380F31001D2D18 /* GoogleSignInKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E77684A1E380F31001D2D18 /* GoogleSignInKitTests.swift */; };
 		0E77684D1E380F31001D2D18 /* GoogleSignInKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E77683F1E380F31001D2D18 /* GoogleSignInKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E77685A1E380F7E001D2D18 /* GoogleAppUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7768561E380F7E001D2D18 /* GoogleAppUtilities.framework */; };
+		0E77685B1E380F7F001D2D18 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7768571E380F7E001D2D18 /* GoogleSignIn.framework */; };
+		0E77685C1E380F7F001D2D18 /* GoogleSignInDependencies.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7768581E380F7E001D2D18 /* GoogleSignInDependencies.framework */; };
+		0E77685D1E380F7F001D2D18 /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7768591E380F7E001D2D18 /* GoogleSymbolUtilities.framework */; };
+		0E7768621E380F9A001D2D18 /* GoogleSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E77685F1E380F9A001D2D18 /* GoogleSignIn.swift */; };
+		0E7768631E380F9A001D2D18 /* GoogleUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7768601E380F9A001D2D18 /* GoogleUser.swift */; };
+		0E7768641E380F9A001D2D18 /* GoogleSignInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7768611E380F9A001D2D18 /* GoogleSignInController.swift */; };
+		0E7768661E380FE1001D2D18 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7768651E380FE1001D2D18 /* SystemConfiguration.framework */; };
+		0E7768681E380FEC001D2D18 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E7768671E380FEC001D2D18 /* SafariServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +38,15 @@
 		0E7768451E380F31001D2D18 /* GoogleSignInKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleSignInKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E77684A1E380F31001D2D18 /* GoogleSignInKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInKitTests.swift; sourceTree = "<group>"; };
 		0E77684C1E380F31001D2D18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7768561E380F7E001D2D18 /* GoogleAppUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAppUtilities.framework; sourceTree = "<group>"; };
+		0E7768571E380F7E001D2D18 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		0E7768581E380F7E001D2D18 /* GoogleSignInDependencies.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignInDependencies.framework; sourceTree = "<group>"; };
+		0E7768591E380F7E001D2D18 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		0E77685F1E380F9A001D2D18 /* GoogleSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignIn.swift; sourceTree = "<group>"; };
+		0E7768601E380F9A001D2D18 /* GoogleUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleUser.swift; sourceTree = "<group>"; };
+		0E7768611E380F9A001D2D18 /* GoogleSignInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleSignInController.swift; sourceTree = "<group>"; };
+		0E7768651E380FE1001D2D18 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0E7768671E380FEC001D2D18 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +54,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7768681E380FEC001D2D18 /* SafariServices.framework in Frameworks */,
+				0E7768661E380FE1001D2D18 /* SystemConfiguration.framework in Frameworks */,
+				0E77685C1E380F7F001D2D18 /* GoogleSignInDependencies.framework in Frameworks */,
+				0E77685A1E380F7E001D2D18 /* GoogleAppUtilities.framework in Frameworks */,
+				0E77685D1E380F7F001D2D18 /* GoogleSymbolUtilities.framework in Frameworks */,
+				0E77685B1E380F7F001D2D18 /* GoogleSignIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +77,7 @@
 		0E7768321E380F31001D2D18 = {
 			isa = PBXGroup;
 			children = (
+				0E77685E1E380F84001D2D18 /* Frameworks */,
 				0E77683E1E380F31001D2D18 /* GoogleSignInKit */,
 				0E7768491E380F31001D2D18 /* GoogleSignInKitTests */,
 				0E77683D1E380F31001D2D18 /* Products */,
@@ -71,6 +96,9 @@
 		0E77683E1E380F31001D2D18 /* GoogleSignInKit */ = {
 			isa = PBXGroup;
 			children = (
+				0E77685F1E380F9A001D2D18 /* GoogleSignIn.swift */,
+				0E7768601E380F9A001D2D18 /* GoogleUser.swift */,
+				0E7768611E380F9A001D2D18 /* GoogleSignInController.swift */,
 				0E77683F1E380F31001D2D18 /* GoogleSignInKit.h */,
 				0E7768401E380F31001D2D18 /* Info.plist */,
 			);
@@ -84,6 +112,19 @@
 				0E77684C1E380F31001D2D18 /* Info.plist */,
 			);
 			path = GoogleSignInKitTests;
+			sourceTree = "<group>";
+		};
+		0E77685E1E380F84001D2D18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E7768671E380FEC001D2D18 /* SafariServices.framework */,
+				0E7768651E380FE1001D2D18 /* SystemConfiguration.framework */,
+				0E7768561E380F7E001D2D18 /* GoogleAppUtilities.framework */,
+				0E7768571E380F7E001D2D18 /* GoogleSignIn.framework */,
+				0E7768581E380F7E001D2D18 /* GoogleSignInDependencies.framework */,
+				0E7768591E380F7E001D2D18 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +190,7 @@
 					0E77683B1E380F31001D2D18 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = K34G3U98RH;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					0E7768441E380F31001D2D18 = {
@@ -198,6 +240,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7768621E380F9A001D2D18 /* GoogleSignIn.swift in Sources */,
+				0E7768641E380F9A001D2D18 /* GoogleSignInController.swift in Sources */,
+				0E7768631E380F9A001D2D18 /* GoogleUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,18 +367,25 @@
 		0E7768511E380F31001D2D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = K34G3U98RH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleSignInKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.DayOneDigital.GoogleSignInKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,14 +393,20 @@
 		0E7768521E380F31001D2D18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = K34G3U98RH;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = GoogleSignInKit/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = net.DayOneDigital.GoogleSignInKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +418,7 @@
 		0E7768541E380F31001D2D18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K34G3U98RH;
 				INFOPLIST_FILE = GoogleSignInKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +431,7 @@
 		0E7768551E380F31001D2D18 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = K34G3U98RH;
 				INFOPLIST_FILE = GoogleSignInKitTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -400,6 +460,7 @@
 				0E7768521E380F31001D2D18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0E7768531E380F31001D2D18 /* Build configuration list for PBXNativeTarget "GoogleSignInKitTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +469,7 @@
 				0E7768551E380F31001D2D18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
